@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<InternetGatewayDevice DBEncrypt="1">
+<WANDevice NumberOfInstances="1">
+<WANDeviceInstance InstanceID="1" WANConnectionNumberOfEntries="2">
+<WANCommonInterfaceConfig EnabledForInternet="1" WANAccessType="" Layer1UpstreamMaxBitRate="0xFFFFFFFF" Layer1DownstreamMaxBitRate="0xFFFFFFFF" PhysicalLinkStatus="up" TotalBytesSent="0xFFFFFFFF" TotalBytesReceived="0xFFFFFFFF" TotalPacketsSent="0xFFFFFFFF" TotalPacketsReceived="0xFFFFFFFF" StandardsSupported="" StandardUsed="" CUEnabledForInternet="1" CULayer1UpstreamMaxBitRate="0xFFFFFFFF" CULayer1DownstreamMaxBitRate="0xFFFFFFFF" CUPhysicalLinkStatus="up">
+</WANCommonInterfaceConfig>
+<WANConnectionDevice NumberOfInstances="2">
+<WANConnectionDeviceInstance InstanceID="2" WANIPConnectionNumberOfEntries="0" WANPPPConnectionNumberOfEntries="1" X_HW_CU_VLANEnabled="0" X_HW_CU_VLAN="0" X_HW_CU_802_1p="0">
+<WANPPPConnection NumberOfInstances="1">
+<WANPPPConnectionInstance InstanceID="1" Enable="1" Reset="0" PossibleConnectionTypes="IP_Routed,PPPoE_Bridged" ConnectionType="IP_Routed" PPPoESessionID="1" Name="" AutoDisconnectTime="" IdleDisconnectTime="180" WarnDisconnectDelay="0" RSIPAvailable="0" NATEnabled="1" Username="suporte" Password="1223" PPPEncryptionProtocol="None" PPPCompressionProtocol="None" PPPAuthenticationProtocol="PAP" RemoteIPAddress="" MaxMRUSize="1492" DNSEnabled="1" DNSOverrideAllowed="0" DNSServers="" MACAddressOverride="0" TransportType="PPPoE" PPPoEACName="" PPPoEServiceName="" ConnectionTrigger="AlwaysOn" RouteProtocolRx="Off" PPPLCPEcho="30" PPPLCPEchoRetry="6" ShapingRate="-1" ShapingBurstSize="0" PortMappingNumberOfEntries="0" PortTriggerNumberOfEntries="" X_HW_SERVICELIST="INTERNET" X_HW_VLAN="2222" X_HW_PRI="0" X_HW_MultiCastVLAN="4294967295" X_HW_ConnectionControl="0xFFFFFFFF" X_HW_IPMode="0" X_HW_IPv4Enable="1" X_HW_IPv6Enable="1" X_HW_IPv6MultiCastVLAN="-1" X_HW_E8C_LanInterface="" X_HW_TR069FLAG="0" X_HW_PriPolicy="Specified" X_HW_DefaultPri="0" X_HW_MacId="2" X_HW_WanId="0" X_HW_LanDhcpEnable="1" X_HW_E8C_DsliteEnable="0" X_HW_E8C_DsliteMode="0" X_HW_E8C_DsliteAftr="" X_HW_LcpEchoReqCheck="1" X_HW_ExServiceList="" X_HW_NatType="1" X_HW_IPForwardList="" X_HW_E8C_IPv6IPAddress="" X_HW_E8C_IPv6IPAddressAlias="" X_HW_E8C_IPv6IPAddressOrigin="AutoConfigured" X_HW_E8C_IPv6DNSServers="" X_HW_E8C_DefaultIPv6Gateway="" X_HW_E8C_IPv6PrefixAlias="" X_HW_E8C_IPv6PrefixOrigin="PrefixDelegation" X_HW_E8C_IPv6Prefix="" X_HW_E8C_IPv6PrefixPltime="0" X_HW_E8C_IPv6PrefixVltime="0" X_HW_E8C_IPv6DomainName="" X_HW_E8C_IPv6PrefixDelegationEnabled="0" X_HW_Dnsv4ProxyForV6="0" X_HW_UpPortId="0" X_HW_IdleDetectMode="DetectBidirectionally" X_HW_Tr069Invisible="0" X_HW_CU_IPForwardModeEnabled="0" X_HW_CU_IGMPProxyEnable="0" X_HW_BindPhyPortInfo="LAN1,LAN2,LAN3,LAN4,SSID1" X_HW_IPv6_PortForwardNumberOfEntries="0" X_HW_RemoteWanInfo="" X_HW_IPv6PppUp="0" X_HW_DHCPv6ForAddress="0" X_HW_IGMPEnable="0" X_HW_RouteProtocolRxMode="Passive" X_HW_RouteProtocolAuthMode="Off" X_HW_RouteProtocolAuthKey="" X_HW_UnnumberedModel="0" X_HW_TDE_IPv6AddressPrefixLength="64" X_HW_TDE_IPv6AddressingType="SLAAC" X_HW_Flag="0" X_HW_LowerLayers="" X_HW_VLANMode="2" X_HW_HURL="" X_HW_MOTM="" X_HW_StaticRouteInfo="" X_HW_DscpToPbitTbl="" X_HW_UpstreamWAN="0" X_HW_ConnectionDelay="30" X_HW_BridgeEnable="0" X_HW_CU_MLDProxyEnable="0" X_HW_TRUE_IPMode="" X_HW_TRUE_IPv6DNSAddressSource="" X_HW_AgentRemoteIdMode="off" X_HW_NPTv6Enable="0" X_HW_VXLAN_Enable="0" X_HW_SpeedLimit_UP="0" X_HW_SpeedLimit_DOWN="0" X_HW_PingResponseEnable="0" X_HW_IPv6LLA="fe80::a00c:28d4:52b1:02ae" X_HW_PingResponseWhiteList="" X_HW_OperateDisable="0">
+<X_HW_6RDTunnel Enable="0" RdPrefix="" RdPrefixLen="40" RdBRIPv4Address="" RdIPv4MaskLen="10"/>
+<X_HW_IPv6>
+<IPv6Address NumberOfInstances="1">
+<IPv6AddressInstance InstanceID="1" Alias="cpe-1" Origin="AutoConfigured" IPAddress="" ChildPrefixBits="" X_HW_E8C_DnsIpAddr="" AddrMaskLen="64" DefaultGateway=""/>
+</IPv6Address>
+<IPv6Prefix NumberOfInstances="1">
+<IPv6PrefixInstance InstanceID="1" Alias="cpe-1" Origin="PrefixDelegation" Prefix="" X_HW_E8C_ChildPrefixBits="" X_HW_CU_PreferredLifeTime="" X_HW_CU_ValidLifeTime=""/>
+</IPv6Prefix>
+<DSLite WorkMode="Off" AFTRName="" InTunnelMTU="1460" OutTunnelMTU="1500"/>
+</X_HW_IPv6>
+</WANPPPConnectionInstance>
+</WANPPPConnection>
+</WANConnectionDeviceInstance>
+</WANConnectionDevice>
+</WANDeviceInstance>
+</WANDevice>
+<X_HW_Security MacFilterPolicy="0" MacFilterRight="0" IpFilterInPolicy="0" IpFilterInRight="0" IpFilterOutPolicy="0" IpFilterOutRight="0" X_HW_FirewallGeneralLevel="4" UrlFilterPolicy="0" UrlFilterRight="0" UrlFilterIpConcern="0" MacFilterNumberOfEntries="0" IpFilterInNumberOfEntries="0" IpFilterOutNumberOfEntries="0" X_HW_FirewallLevel="Custom" WlanMacFilterPolicy="0" WlanMacFilterRight="0" WlanMacFilterNumberOfEntries="0">
+<MacFilter NumberOfInstances="0"/>
+<WLANMacFilter NumberOfInstances="0"/>
+<IpFilterIn NumberOfInstances="0"/>
+<IpFilterOut NumberOfInstances="0"/>
+<UrlFilter NumberOfInstances="0"/>
+<Dosfilter SynFloodEn="1" IcmpEchoReplyEn="0" IcmpRedirectEn="1" LandEn="1" SmurfEn="1" WinnukeEn="1" PingSweepEn="0"/>
+<WANSrcWhiteList WANSrcWhiteListEnable="0" WANSrcWhiteListNumberOfEntries="0"/>
+<AclServices HTTPLanEnable="1" HTTPWanEnable="0" FTPLanEnable="0" FTPWanEnable="0" TELNETLanEnable="0" TELNETWanEnable="0" SSHLanEnable="0" SSHWanEnable="0" HTTPPORT="80" FTPPORT="21" TELNETPORT="23" SSHPORT="22" HTTPWifiEnable="1" TELNETWifiEnable="0">
+<AccessControl AccessControlListEnable="1" AccessControlListNumberOfEntries="1">
+<List NumberOfInstances="1">
+<ListInstance InstanceID="1" SrcPortType="2" SrcPortName="ALL" SrcIp="" SrcMac="" ServiceProto="" ServiceProtoPort="" Priority="1" Mode="0" DynamicWanServiceType="" ServicePort="HTTP,ICMP"/>
+</List>
+</AccessControl>
+</AclServices>
+<ParentalCtrl ParentCtrlDataSyncInd="1" ParentCtrlMode="2" Enable="1">
+<Templates NumberOfInstances="1">
+<TemplatesInstance InstanceID="1" Name="template" UrlFilterPolicy="0" UrlFilterRight="0" StartDate="" EndDate="" DurationPolicy="0" DurationRight="0"/>
+</Templates>
+</ParentalCtrl>
+<ARPFilter Enable="0" LimitNumber="800" ARPAutoBindEnable="0"/>
+<UsrSessionLimit Enable="1" MAXSession="4000"/>
+<X_HW_InternetOffCtrl Enable="0"/>
+</X_HW_Security>

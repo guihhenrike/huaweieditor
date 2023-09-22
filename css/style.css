@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+} 
+
+input {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+#inputGroup-sizing-sm {
+    background-color: #B2D8E4;
+}
+
+
+#div-form {
+    margin-bottom: 140px;
+    margin-top: -185px;
+    height: 10px;
+}
+
+
+#nav-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+
+#nav-bar {
+    background-color: white;
+    /* background-color: aqua; */
+}
+
+#label-user {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+#label-pass {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
